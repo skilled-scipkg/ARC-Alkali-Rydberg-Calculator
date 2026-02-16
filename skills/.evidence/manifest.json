@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "arc-alkali-rydberg-calculator-inputs-and-modeling",
+    "arc-alkali-rydberg-calculator-getting-started",
+    "arc-alkali-rydberg-calculator-api-and-scripting",
+    "arc-alkali-rydberg-calculator-requirements",
+    "arc-alkali-rydberg-calculator-math-and-io-primitives",
+    "arc-alkali-rydberg-calculator-divalent-atom-data"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/arc-alkali-rydberg-calculator-inputs-and-modeling.md",
+    "skills/.evidence/arc-alkali-rydberg-calculator-getting-started.md",
+    "skills/.evidence/arc-alkali-rydberg-calculator-api-and-scripting.md",
+    "skills/.evidence/arc-alkali-rydberg-calculator-requirements.md",
+    "skills/.evidence/arc-alkali-rydberg-calculator-math-and-io-primitives.md",
+    "skills/.evidence/arc-alkali-rydberg-calculator-divalent-atom-data.md"
+  ]
+}

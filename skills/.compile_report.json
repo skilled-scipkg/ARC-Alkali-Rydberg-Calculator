@@ -1,0 +1,102 @@
+{
+  "compiled_package_id": "arc",
+  "evidence": {
+    "core_skills": [
+      "arc-alkali-rydberg-calculator-inputs-and-modeling",
+      "arc-alkali-rydberg-calculator-getting-started",
+      "arc-alkali-rydberg-calculator-api-and-scripting",
+      "arc-alkali-rydberg-calculator-requirements",
+      "arc-alkali-rydberg-calculator-math-and-io-primitives",
+      "arc-alkali-rydberg-calculator-divalent-atom-data"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/arc-alkali-rydberg-calculator-inputs-and-modeling.md",
+      "skills/.evidence/arc-alkali-rydberg-calculator-getting-started.md",
+      "skills/.evidence/arc-alkali-rydberg-calculator-api-and-scripting.md",
+      "skills/.evidence/arc-alkali-rydberg-calculator-requirements.md",
+      "skills/.evidence/arc-alkali-rydberg-calculator-math-and-io-primitives.md",
+      "skills/.evidence/arc-alkali-rydberg-calculator-divalent-atom-data.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Tutorial and example material is embedded in doc/ (notebooks and getting_started docs), with no separate top-level examples/ directory.",
+      "Applied a minimal fix in sci-skills-generator/scripts/generate_skills_folder.py to remove invalid f-string join expressions so generator dry-run works deterministically."
+    ],
+    "package_name": "ARC-Alkali-Rydberg-Calculator",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "arc"
+    ],
+    "test_dirs": [
+      "test"
+    ],
+    "tutorial_dirs": [
+      "doc"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator",
+  "validation": {
+    "core_skills_checked": [
+      "arc-alkali-rydberg-calculator-advanced-topics",
+      "arc-alkali-rydberg-calculator-inputs-and-modeling",
+      "arc-alkali-rydberg-calculator-getting-started",
+      "arc-alkali-rydberg-calculator-math-and-io-primitives",
+      "arc-alkali-rydberg-calculator-requirements",
+      "arc-alkali-rydberg-calculator-divalent-atom-data"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-inputs-and-modeling/references/source_map.md: broken path references: nMin/nMax/maxL",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-math-and-io-primitives/references/source_map.md: broken path references: save/load",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-advanced-topics/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-advanced-topics/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-advanced-topics/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-advanced-topics/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-math-and-io-primitives/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-requirements/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arc-arc-alkali-rydberg-calculator/skills/arc-alkali-rydberg-calculator-divalent-atom-data/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "arc-alkali-rydberg-calculator-index"
+    ],
+    "ok": false,
+    "skills_total": 8,
+    "source_links_total": 41,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}
